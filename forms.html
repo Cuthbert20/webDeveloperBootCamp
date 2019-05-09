@@ -28,7 +28,17 @@
 
     <form action="">
         <!-- This form is all about labels -->
-        
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder="Temp UserName">
     </form>
+    <p>
+        <!-- We are using the required attribute here. Which requires the user to fill out the field, in this case that is the User Field -->
+        <form action="http://ebay.com" method="GET">
+            <label for="user">User ID:</label>
+            <input id='user' type="text" placeholder="puter your username here" required>
+            <label for="email">User Email:</label>
+            <input type="email" placeholder="Your e-mail">
+        </form>
+    </p>
 </body>
 </html>
