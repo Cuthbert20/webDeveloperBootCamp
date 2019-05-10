@@ -15,8 +15,9 @@
     <div class="a">
             <h1 style="color:green">Create this form:</h1> 
     </div>
+        <h2>Register</h2>
     <p>
-        <form name="Register" action="" style="background:white">
+        <form name="Register" style="background:white">
             <label for="first">First Name:</label>
             <input name="first" type="text" placeholder="John" required>
             <label for="last">Last Name:</label>
@@ -34,14 +35,16 @@
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="your email" required>
             <label for=""></label>
-            <input type="password" name="password" id="password" placeholder="your password" minlength="5" maxlength="10" required>
+            <input type="password" name="password" id="password" placeholder="your password" pattern=".{5,10}" required title='5 to 10 characters' required>
 
         </p>
         <p>
             <label class="Age">Birthday:</label>
             <select class="Age" name="Month">
                 <option value="">Month</option>
-                <option value="Month">January</option>
+                <option value="Month">January</option> 
+                <!-- NOTE to self Value could be whatever we want it to be, it could be 1 for jan 2 for feb ect or whatever or if you want it the same
+                as the name just leave out the attribute value and the value will be the name of the option. -->
                 <option value="Month">February</option>
                 <option value="Month">March</option>
                 <option value="Month">April</option>
@@ -74,8 +77,8 @@
             
         </p>
         <p>
-            I agree to the terms and conditions
-            <input type="checkbox">
+            <label for="agreed">I agree to the terms and conditions</label>
+            <input id="agreed" name="agreed" type="checkbox">
         </p>
         <p>
             <input type="submit" name="" id="">
