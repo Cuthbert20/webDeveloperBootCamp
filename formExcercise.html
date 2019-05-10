@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms-exercise</title>
+</head>
+<body style="background:black">
+    <style>
+       div.a {
+           text-align: center
+       } 
+    </style>
+    <div class="a">
+            <h1 style="color:green">Create this form:</h1> 
+    </div>
+    <p>
+        <form name="Register" action="" style="background:white">
+            <label for="first">First Name:</label>
+            <input name="first" type="text" placeholder="John" required>
+            <label for="last">Last Name:</label>
+            <input name='last' type="text" placeholder="Smith" required>
+        </p>
+        <p>
+            <label for="male">Male</label>
+            <input name='gender' id="male" type="radio" value="MALE">
+            <label for="female">Female</label>
+            <input name='gender' id="female" type="radio" value="FEMALE">
+            <label for="other">Other</label>
+            <input name='gender' id="other" type="radio" value="OTHER">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+            <label for=""></label>
+            <input type="password" name="password" id="password" placeholder="your password" minlength="5" maxlength="10" required>
+
+        </p>
+        <p>
+            <label class="Age">Birthday:</label>
+            <select class="Age" name="Month">
+                <option value="">Month</option>
+                <option value="Month">January</option>
+                <option value="Month">February</option>
+                <option value="Month">March</option>
+                <option value="Month">April</option>
+                <option value="Month">May</option>
+                <option value="Month">June</option>
+                <option value="Month">July</option>
+                <option value="Month">August</option>
+                <option value="Month">September</option>
+                <option value="Month">October</option>
+                <option value="Month">November</option>
+                <option value="Month">December</option>
+            </select>
+            
+            <select class="Age" name="Day">
+                <option value="">Day</option>
+                <option value="Day">1</option>
+                <option value="Day">2</option>
+                <option value="Day">3</option>
+                <option value="Day">4</option>
+                <option value="Day">5</option>
+                <option value="Day">6</option>
+            </select>
+
+            <select class="Age" name="Year" id="">
+                <option value="">Year</option>
+                <option value="Year">2000</option>
+                <option value="Year">2001</option>
+                <option value="Year">2002</option>
+            </select>
+            
+        </p>
+        <p>
+            I agree to the terms and conditions
+            <input type="checkbox">
+        </p>
+        <p>
+            <input type="submit" name="" id="">
+        </p>
+        </form>
+    </p>
+      
+</body>
+</html>
