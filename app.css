@@ -1,7 +1,20 @@
 h1 {
-    color:purple
+    color: #ff0000;
 }
 
 li{
-    color:red
+    color: #22ffff;
+}
+
+h4 {
+    background: rgb(201, 147, 147);
+    border: 5px solid #22ffff; 
+    
+}
+
+/*body {
+    background: url(https://scubasanmateo.com/images/wood-clipart-wood-grain-9.jpg)
+}*/
+body {
+    background: slategray;
 }

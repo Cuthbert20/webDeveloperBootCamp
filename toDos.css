@@ -1,0 +1,11 @@
+body {
+    background: lightblue;
+}
+
+#special {
+    color: blueviolet;
+}
+
+.finished {
+    text-decoration: line-through;
+}
