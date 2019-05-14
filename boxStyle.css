@@ -1,0 +1,9 @@
+/* styling for boxModel.html */
+
+/* Use Chrome Inspect to see the padding, boarder info ect...*/
+p:nth-of-type(2){
+    border: 2px solid red;
+    width: 30%; /* when using % box/boarder will adjust as your browser window is adjusted */
+    height: 90px;
+    padding: 8%;
+}

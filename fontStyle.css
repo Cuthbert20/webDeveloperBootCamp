@@ -1,18 +1,33 @@
 /*font-family*/
 p:nth-of-type(2){
-    font-family: "Century Gothic";
+    font-family: "lobster";
 }
 
 /*font-size*/
 h1 {
     font-size: 55px;
 }
+span{
+    font-size: 3.0em;
+}
 
 /*font-weight*/
+p:nth-of-type(2){
+    font-weight: bold;
+}
 
 /*line-height*/
 
+p:nth-of-type(5){
+    line-height: 2;
+}
+
 /*text-align*/
+h1{
+    text-align: right;
+}
 
 /*text-decoration*/
-
+p:nth-of-type(4){
+    text-decoration: underline;
+}
