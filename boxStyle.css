@@ -5,5 +5,14 @@ p:nth-of-type(2){
     border: 2px solid red;
     width: 30%; /* when using % box/boarder will adjust as your browser window is adjusted */
     height: 90px;
+   
     padding: 8%;
+
+    margin: 0 auto 0 auto;/* you can use % oro px or lots of different ways to set your 
+    margin % will adjust to the size of the explorer window.
+    you can uyse margin-top or margin-left, same with padding*/
+}
+div:nth-of-type(2) p:nth-of-type(2){
+    font-size: 3.0em;
+    border: 5px dotted blue;
 }
