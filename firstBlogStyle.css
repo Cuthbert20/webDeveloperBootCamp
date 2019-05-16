@@ -1,0 +1,14 @@
+body{
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-family: source sans pro;
+    
+}
+h3{
+    margin-top: 0%;
+    color: #3498db;
+    text-transform: uppercase;
+}

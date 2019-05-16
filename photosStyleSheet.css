@@ -1,0 +1,19 @@
+img{
+    
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}/* 30% per photo 3 photos per line 1.66% margin * 6 total is near 100% */
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.66%;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    border-bottom: 3px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+    /* assigning width to paragraph (30%) so that the bottom border will end at 30%*/
+}
+
