@@ -9,10 +9,15 @@
     <link rel="stylesheet" type="text/css" href="firstBlogStyle.css">
 </head>
 <body>
-<h3>May 16 2019</h3>
-<h1>This Is My First Article</h1>
-<div>
-    <p>
+
+
+<div class="post">
+    <h3>May 16 2019</h3>
+    <h1>This Is My First Article</h1>
+    <p> <!--I did a nth-of-type BUT I should have assigned a class to the
+        p tag then used .exp in css to add a border. It would have applied
+        to both p tags that I assigned the class to insead of creating
+        2 seperate nth-of-type's-->
         Spicy jalapeno bacon ipsum dolor amet chuck buffalo pastrami pork fatback tongue prosciutto meatball rump capicola swine short 
         ribs cow venison pork chop. Prosciutto pancetta meatball, chuck kielbasa shankle burgdoggen t-bone salami cow frankfurter. 
         Ground round pancetta ham hock pastrami leberkas meatloaf, landjaeger flank drumstick turducken. Shank ground round ribeye 
@@ -32,10 +37,14 @@
         t-bone filet mignon pancetta jowl picanha turkey. Meatloaf ribeye hamburger ball tip pancetta landjaeger tail shoulder 
         corned beef prosciutto.
     </p>
+
+    <hr>
+
 </div>
-<h3>May 17 2019</h3>
+
+<div class="post">
+<h3 class="date">May 17 2019</h3>
 <h1>This is Another Article</h1>
-<div>
    <p>
     Leberkas beef ribs cow pork tri-tip flank bacon turkey ham burgdoggen venison t-bone. Pastrami shoulder meatloaf turducken, 
     flank bresaola meatball burgdoggen sirloin buffalo beef picanha ball tip alcatra. Pork chop salami andouille sausage shank 
