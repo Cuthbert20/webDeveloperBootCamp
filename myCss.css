@@ -1,3 +1,9 @@
-ul li {
-    text-decoration: line-through;
+p{
+    font-family: 'Baloo Bhai', cursive;
+}
+h1{
+    font-family: 'Baloo Bhai', cursive;
+}
+.test{
+    color: blue; 
 }
