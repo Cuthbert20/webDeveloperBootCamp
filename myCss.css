@@ -1,9 +1,5 @@
-p{
-    font-family: 'Baloo Bhai', cursive;
-}
-h1{
-    font-family: 'Baloo Bhai', cursive;
-}
-.test{
-    color: blue; 
+.pink{
+    background: pink;
+    color: gray;
+    border: 2px dotted gray;
 }
