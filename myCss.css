@@ -2,4 +2,17 @@
     background: pink;
     color: gray;
     border: 2px dotted gray;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.blue{
+    border: 2px solid black;
+    background: brown;
+    text-align: center;
+}
+.red{
+    background: yellow;
+    border: 3px solid purple;
+    text-align: center;
+    height: 49px;
 }
