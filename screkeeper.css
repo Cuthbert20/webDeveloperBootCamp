@@ -1,0 +1,4 @@
+/* creating a class called winner so when winning number is hit color turns green*/
+.winner {
+    color: green;
+}
