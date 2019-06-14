@@ -15,4 +15,4 @@ comments.print = function(){
     this.data.forEach(el => {
         console.log(el);
     });
-};
+};//run comments.print() and it will print out the array in comments.data
